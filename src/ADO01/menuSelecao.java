@@ -231,10 +231,12 @@ public class menuSelecao extends javax.swing.JFrame {
     private void jBPesquisarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jBPesquisarActionPerformed
         // TODO add your handling code here:
         
-        /*JOptionPane.showInputDialog(null, "digite o modelo a ser pesquisado");
+        JOptionPane.showInputDialog(null, "digite o modelo a ser pesquisado");
         String modeloPesquisado = leitor.next();
+        listaSimples.pesquisarNo(modeloPesquisado);
+        JOptionPane.showMessageDialog(null, "modelo encontrado: " + modeloPesquisado);
         
-        if (listaSimples.prim.getC().getModelo().equalsIgnoreCase(modeloPesquisado)){
+        /*if (listaSimples.prim.getC().getModelo().equalsIgnoreCase(modeloPesquisado)){
             
         }
 
