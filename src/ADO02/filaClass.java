@@ -5,6 +5,8 @@
  */
 package ADO02;
 
+import javax.swing.JOptionPane;
+
 /**
  *
  * @author r.almeida.barbosa
@@ -55,6 +57,14 @@ public class filaClass {
     public static void main(String[] args) {
         filaClass fila = new filaClass();
         
-        fila.removerDequeue();
+        fila.inserirEnqueue(1);
+        fila.inserirEnqueue(2);
+        fila.inserirEnqueue(3);
+        fila.inserirEnqueue(4);
+        fila.inserirEnqueue(5);
+        for (int i = 0; i < fila.size(); i++) {
+            System.out.println(fila.fila[i]);
+        }
+        
     }
 }
